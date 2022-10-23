@@ -1,4 +1,20 @@
 .list-wrapper {
     max-width: 700px;
     margin: auto;
+    /* margin-bottom: 20px; */
+}
+
+.list-wrapper .incomp{
+    margin-top: 20px;
+    color: #000;
+    font-size: min(24px, 4vw);
+    padding-left: 20px;
+    
+}
+
+.list-wrapper .comp {
+    padding-left: 20px;
+    margin-top: 30px;
+    color: #000;
+    font-size: min(24px, 4vw);
 }

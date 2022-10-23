@@ -6,7 +6,7 @@ import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import {configureStore} from './store';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import reportWebVitals from './reportWebVitals';
 
 const store = configureStore()
 const persistor = persistStore(store);
@@ -26,4 +26,4 @@ root.render(
 );
 
 
-reportWebVitals();
+// reportWebVitals();

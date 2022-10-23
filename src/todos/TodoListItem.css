@@ -1,16 +1,41 @@
 .todo-item-container {
+    width: 90%;
+    margin: 0 auto;
     background: #fff;
     border-radius: 8px;
     margin-top: 8px;
     padding: 16px;
     position: relative;
     box-shadow: 0 4px 8px grey;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    font-size: min(16px, 2.8vw);
+    margin-bottom: 40px;
+    
+}
+
+.todo-item-container .text-cont {
+    display: flex;
+    /* align-items: center; */
+    
+    flex-direction: column;
+}
+
+.todo-item-container .text-cont p {
+    font-size: min(14px, 2vw);
 }
 
 .buttons-container {
-    position: absolute;
+    /* position: absolute; */
     right: 12px;
     bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 button {
@@ -25,10 +50,28 @@ button {
 .completed-button {
     display: inline-block;
     background-color: #22ee22;
+    max-height: 35px;
+    font-size: min(16px, 1.9vw);
+}
+
+.completed-button:hover {
+
+    background-color: #ddd;
+    border: 3px solid #22ee22;
+
+
 }
 
 .remove-button {
     display: inline-block;
     background-color: #ee2222;
     margin-left: 8px;
+    max-height: 35px;
+    font-size: min(16px, 1.9vw);
+}
+
+.remove-button:hover {
+    background-color: #ddd;
+    border: 3px solid #ee2222;
+
 }
